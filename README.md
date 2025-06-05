@@ -62,19 +62,23 @@ We compare the trained Double DQN agent with a rule-based Bollinger Band strateg
 **Conclusion**:  
 The RL agent significantly outperforms the deterministic baseline across most metrics, especially in risk-adjusted return and capital preservation.
 
-## Selected Visualizations
+### Visual Analysis of Trading Performance
 
 <p align="center">
-  <img src="images/networth_evolution_dqn.png" alt="Net Worth Evolution with DQN" width="80%"/>
+  <img src="images/Net_worth.png" alt="Net worth evolution with Double DQN" width="80%">
 </p>
 
-<p align="center">
-  <img src="images/dqn_reward_distribution.png" alt="Distribution of DQN Test Rewards" width="80%"/>
-</p>
+*Figure 1 – Evolution of cumulative net worth (%) on the 2020-2022 test period for the Double DQN strategy.  
+The agent achieves a peak of +300 % before stabilising around +150 %, illustrating both growth potential and exposure to drawdowns.*
 
 <p align="center">
-  <img src="images/dqn_trading_strategies.png" alt="Trading Strategy Visualization for DQN" width="80%"/>
+  <img src="images/NG_trading.png" alt="Natural Gas trading behaviour" width="80%">
 </p>
+
+*Figure 2 – Trading behaviour of the Double DQN agent on Natural Gas. Top : price series with buy and sell signals. Middle : action intensity (discretised order fraction). Bottom : Shares Held*
+
+The agent progressively builds a long position during the sustained up-trend while scaling out when momentum weakens, showing its ability to adapt position sizing to changing market conditions.*
+
 
 ## Key Takeaways
 
