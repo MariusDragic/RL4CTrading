@@ -1,8 +1,12 @@
 # Deep Reinforcement Learning for Commodity Trading
 
+## Overview
+
 This project investigates the application of Deep Reinforcement Learning (DRL) to multi-asset trading strategies in highly volatile and non-trending commodity markets. Using a custom-designed trading environment and a Double Deep Q-Network (Double DQN) architecture enhanced with LSTM layers, we demonstrate the agent's ability to learn profitable and risk-adjusted behaviors when trading on gold, silver, and natural gas simultaneously.
 
-## Overview
+A detailed report including theoretical background and extended results is available [here](https://github.com/MariusDragic/RL4CTrading/blob/main/Trading_Commodities_RL.pdf) for interested readers.
+
+## Methodology
 
 Commodity markets are notoriously noisy and non-bullish, rendering traditional long-only strategies ineffective. To tackle this complexity, we adopt a **value-based reinforcement learning framework** that approximates optimal Q-values via a Double DQN, supported by:
 
