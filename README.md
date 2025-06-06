@@ -98,6 +98,13 @@ Possible directions include:
 - Integrating **attention mechanisms** to refine temporal feature modeling
 - Extending to **real unnormalized prices** with heterogeneous transaction costs
 
+## Requirements
+
+Install dependencies:
+```bash
+pip install -r requirement.txt
+```
+
 ## Authors
 
 - **Marius Dragic** — CentraleSupélec  
