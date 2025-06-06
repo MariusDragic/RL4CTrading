@@ -69,11 +69,11 @@ The RL agent significantly outperforms the deterministic baseline across most me
 ### Visual Analysis of Trading Performance
 
 <p align="center">
-  <img src="images/Net_worth.png" alt="Net worth evolution with Double DQN" width="80%">
+  <img src="images/Net_Worth.png" alt="Net worth evolution with Double DQN" width="80%">
 </p>
 
-*Figure 1 – Evolution of cumulative net worth (%) on the 2020-2022 test period for the Double DQN strategy.  
-The agent achieves a peak of +300 % before stabilising around +150 %, illustrating both growth potential and exposure to drawdowns.*
+*igure 1 – Cumulative net worth evolution (%) over the 2020–2022 test period for both the Double DQN and Bollinger strategies.
+The Double DQN agent achieves a peak return exceeding +300% before stabilizing near +150%, demonstrating strong growth potential despite exposure to significant drawdowns. In contrast, the Bollinger baseline remains relatively stable, with modest gains around +30%, highlighting the added value of deep reinforcement learning for dynamic portfolio allocation.*
 
 <p align="center">
   <img src="images/NG_trading.png" alt="Natural Gas trading behaviour" width="80%">
